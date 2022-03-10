@@ -1,6 +1,5 @@
 # DroneControler
-![Logo](./src/Frame291.png)
-TestProjectForHot Siberians Test
+Test Project For Hot Siberians.
 
 ### Оглавление
 1. [Вступление](#доп)
