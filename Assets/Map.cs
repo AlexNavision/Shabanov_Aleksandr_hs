@@ -33,7 +33,6 @@ public class Map : MonoBehaviour
                 if (CheckPoint.Distance(CheckPointPosTemp) < CheckPointMinDistance)
                     goto endWhile;
             }
-            print(CheckPointTemp.Count);
             Instantiate(CheckPointObj, CheckPointPosTemp.position, Quaternion.identity);
             CheckPointTemp.Enqueue(CheckPointPosTemp);
             endWhile:;

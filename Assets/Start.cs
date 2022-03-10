@@ -9,4 +9,8 @@ public class Start : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+    public void Click2()
+    {
+        SceneManager.LoadScene(0);
+    }
 }

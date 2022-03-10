@@ -54,25 +54,27 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1484}
+      Script: {instanceID: 1482}
     - Class: 114
-      Script: {instanceID: 1632}
+      Script: {instanceID: 1630}
     - Class: 114
-      Script: {instanceID: 1932}
+      Script: {instanceID: 1930}
     - Class: 114
-      Script: {instanceID: 1958}
+      Script: {instanceID: 1956}
     - Class: 114
-      Script: {instanceID: 2234}
+      Script: {instanceID: 2232}
     - Class: 114
-      Script: {instanceID: 2246}
+      Script: {instanceID: 2244}
     - Class: 114
-      Script: {instanceID: 2336}
+      Script: {instanceID: 2334}
     - Class: 114
-      Script: {instanceID: 2482}
+      Script: {instanceID: 2480}
     - Class: 114
-      Script: {instanceID: 2662}
+      Script: {instanceID: 2660}
     - Class: 114
-      Script: {instanceID: 2740}
+      Script: {instanceID: 2738}
+    - Class: 114
+      Script: {instanceID: 2772}
     - Class: 114
       Script: {instanceID: 3260}
     - Class: 114
@@ -93,6 +95,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
     Assets/Scenes/start.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -111,21 +117,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1484}
+      Script: {instanceID: 1482}
     - Class: 114
-      Script: {instanceID: 1958}
+      Script: {instanceID: 1956}
     - Class: 114
-      Script: {instanceID: 2234}
+      Script: {instanceID: 2232}
     - Class: 114
-      Script: {instanceID: 2336}
+      Script: {instanceID: 2334}
     - Class: 114
-      Script: {instanceID: 2482}
+      Script: {instanceID: 2480}
     - Class: 114
-      Script: {instanceID: 2662}
+      Script: {instanceID: 2660}
     - Class: 114
-      Script: {instanceID: 2740}
+      Script: {instanceID: 2738}
     - Class: 114
-      Script: {instanceID: 17768}
+      Script: {instanceID: 2772}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -373,6 +379,12 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Start
+  - hash:
+      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -587,12 +599,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Start
   platform: 13
   scenePathNames:
   - Assets/Scenes/start.unity

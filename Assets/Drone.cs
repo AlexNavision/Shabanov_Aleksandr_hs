@@ -36,7 +36,6 @@ public class Drone : MonoBehaviour,IDrone
 
     public IEnumerator DoCommand(VectorXZ target)
     {
-        print(transform.position);
         Quaternion look = Quaternion.LookRotation(target.position - transform.position + new Vector3(0, 1));
         while (CurrCommand == action.move)
         {
@@ -71,6 +70,7 @@ public class Drone : MonoBehaviour,IDrone
         {
             StopAllCoroutines();
             hp.text = "Dead";
+            DroneControler.DronesInput -= InputCommand;
         }
         Instantiate(DroneControler.instance.Hit,transform.position,Quaternion.identity);
     }
@@ -86,5 +86,9 @@ public class Drone : MonoBehaviour,IDrone
                 ScaleChange = -ScaleChange;
         }
         transform.localScale = Scale;
+    }
+    private void OnDestroy()
+    {
+        DroneControler.DronesInput -= InputCommand;
     }
 }

@@ -15,7 +15,7 @@ public class DroneControler : MonoBehaviour
     public void MenuInput(int click)
     {
         action command = GetCommand(click);
-        DronesInput(GetCommand(click));
+        DronesInput?.Invoke(GetCommand(click));
     }
 }
 
